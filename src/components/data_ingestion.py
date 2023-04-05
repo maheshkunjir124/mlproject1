@@ -1,5 +1,6 @@
 import os
 import sys
+sys.path.append('src/package1')
 from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
